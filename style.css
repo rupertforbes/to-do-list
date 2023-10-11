@@ -17,17 +17,19 @@ h1 {
   padding-bottom: 20px;
 }
 
-.container {
+.main {
   max-width: 600px;
-  height: 100vh;
+  height: 90vh;
   background-image: url("/images/paper-background.jpg");
   background-size: 50% cover;
   border: 1px solid #878787;
   box-shadow: 3px 3px 5px #878787;
   border-radius: 5px;
+  margin-top: 5px;
 }
 
-.done:hover {
+.done:hover,
+.clear:hover {
   opacity: 0.8;
   cursor: pointer;
 }
@@ -35,4 +37,9 @@ h1 {
 ul {
   font-family: "Satisfy", cursive;
   font-size: 30px;
+}
+
+.footer {
+  max-width: 550px;
+  margin-top: 10px;
 }
