@@ -1,7 +1,9 @@
 function showItem(event) {
   event.preventDefault();
-  let newItem = inputForm.value;
-  target.innerHTML = `<li>${newItem}</li>`;
+  let newListItem = inputForm.value;
+  let newItem = document.createElement("li");
+  newItem.textContent = newListItem;
+  target.appendChild(newItem);
 }
 
 let inputForm = document.querySelector(".input");

@@ -4,6 +4,7 @@
 
 h1 {
   font-family: "Satisfy", cursive;
+  margin-left: 30px;
 }
 
 .top1 {
@@ -21,6 +22,9 @@ h1 {
   height: 100vh;
   background-image: url("/images/paper-background.jpg");
   background-size: 50% cover;
+  border: 1px solid #878787;
+  box-shadow: 3px 3px 5px #878787;
+  border-radius: 5px;
 }
 
 .done:hover {
