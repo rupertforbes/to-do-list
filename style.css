@@ -27,3 +27,8 @@ h1 {
   opacity: 0.8;
   cursor: pointer;
 }
+
+ul {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
